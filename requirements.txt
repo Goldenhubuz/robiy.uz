@@ -1,0 +1,4 @@
+Django
+django-jazzmin
+django-ckeditor-5
+django-ckeditor

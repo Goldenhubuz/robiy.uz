@@ -14,7 +14,7 @@ class BaseModel(models.Model):
 
 
 class AboutModel(BaseModel):
-    ava = models.ImageField(upload_to='about/')
+    ava = models.ImageField(upload_to='about/', default='default.jpg')
     name_uz = models.CharField(max_length=15)
     name_ru = models.CharField(max_length=15)
     name_en = models.CharField(max_length=15)
